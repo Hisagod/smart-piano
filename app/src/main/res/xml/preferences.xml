@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<ListPreference
+		android:key="keyboard_type"
+		android:title="@string/pref_keyboardType"
+		android:entries="@array/pref_keyboardType_entries"
+		android:entryValues="@array/pref_keyboardType_values"
+		android:defaultValue="@string/pref_keyboardType_default" />
+	<com.levien.synthesizer.android.widgets.knob.KnobPreference
+		android:key="vel_avg"
+		android:title="@string/pref_velAvg"
+		android:summary="@string/pref_velAvg_summary"
+		android:widgetLayout="@layout/knobpreflayout_va"
+		android:defaultValue="@string/pref_velAvg_default" />
+	<com.levien.synthesizer.android.widgets.knob.KnobPreference
+		android:key="vel_sens"
+		android:title="@string/pref_velSens"
+		android:summary="@string/pref_velSens_summary"
+		android:widgetLayout="@layout/knobpreflayout_vs"
+		android:defaultValue="@string/pref_velSens_default" />
+</PreferenceScreen>

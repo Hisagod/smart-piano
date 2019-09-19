@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Music Synthesizer</string>
+
+  <!-- Sections -->
+  <string name="new_score">New score</string>
+  <string name="save_score">Save score as...</string>
+  <string name="open_score">Open score...</string>
+
+  <string name="compose">Compose</string>
+  <string name="piano">Piano</string>
+  <string name="edit_instrument">Edit instrument</string>
+  <string name="instrument_list">Instrument List</string>
+
+  <string name="chord_grid">Chord Grid</string>
+  <string name="vibrato">Vibrato</string>
+  <string name="oscillator">Oscillator</string>
+  <string name="oscillator1">Oscillator 1</string>
+  <string name="oscillator2">Oscillator 2</string>
+  <string name="karplus_strong">Karplus-Strong</string>
+  <string name="karplus_strong1">Karplus-Strong 1</string>
+  <string name="karplus_strong2">Karplus-Strong 2</string>
+  <string name="tremolo">Tremolo</string>
+  <string name="low_pass_filter">Low Pass Filter</string>
+  <string name="amplification">Amplification</string>
+  <string name="effects">Effects</string>
+
+  <!-- Vibrato -->
+  <string name="rate">Rate</string>
+
+  <!-- Karplus-Strong -->
+  <string name="blend">Blend</string>
+  <string name="stretch">Stretch</string>
+  <string name="excitement">Excitement</string>
+
+  <!-- Oscillator -->
+  <string name="glide">Glide</string>
+  <string name="coarse">Coarse</string>
+  <string name="fine">Fine</string>
+  <string name="vibrato_depth">Vibrato</string>
+
+  <!-- Mixing -->
+  <string name="balance">Balance</string>
+
+  <!-- Tremolo -->
+  <string name="depth">Depth</string>
+
+  <!-- Low Pass Filter -->
+  <string name="cutoff">Cutoff</string>
+  <string name="resonance">Resonance</string>
+  <string name="overdrive">Overdrive</string>
+
+  <!-- Amp -->
+  <string name="attack">Attack</string>
+  <string name="decay">Decay</string>
+  <string name="sustain">Sustain</string>
+  <string name="release">Release</string>
+  <string name="volume">Volume</string>
+
+  <!-- Effects -->
+  <string name="echo_mix">Echo Mix</string>
+  <string name="echo_delay">Echo Delay</string>
+
+  <!-- Delay -->
+  <string name="play">Play</string>
+  <string name="record">Record</string>
+  <string name="stop">Stop</string>
+  
+  <!-- Array of Sections -->
+  <string-array name="sections">
+    <item>Vibrato</item>
+    <item>Oscillator 1</item>
+    <item>Oscillator 2</item>
+    <item>Karplus-Strong 1</item>
+    <item>Karplus-Strong 2</item>
+    <item>Tremolo</item>
+    <item>Low Pass Filter</item>
+    <item>Amplification</item>
+    <item>Effects</item>
+  </string-array>
+
+  <string name="capture">Capture</string>
+
+  <string name="settings">Settings</string>
+
+  <!-- Preferences -->
+  <string name="pref_keyboardType">Keyboard Type</string>
+  <string-array name="pref_keyboardType_entries">
+      <item>2 Row (Piano)</item>
+      <item>3 Row</item>
+      <item>3 Row Chromatic</item>
+      </string-array>
+  <string-array name="pref_keyboardType_values">
+      <item>2row</item>
+      <item>3row</item>
+      <item>3chrome</item>
+      </string-array>
+  <string name="pref_keyboardType_default">2row</string>
+
+  <string name="pref_velAvg">Velocity average value</string>
+  <string name="pref_velAvg_summary">MIDI velocity at medium pressure</string>
+  <string name="pref_velAvg_default">64.0</string>
+
+  <string name="pref_velSens">Velocity sensitivity</string>
+  <string name="pref_velSens_summary">Sensitivity of MIDI velocity to pressure</string>
+  <string name="pref_velSens_default">0.5</string>
+
+</resources>
